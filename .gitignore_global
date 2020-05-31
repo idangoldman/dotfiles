@@ -1,0 +1,25 @@
+# Asterisk files
+._*
+*.gz
+*.lock
+*.log
+*.rar
+*.sql
+*.sqlite
+*.tar
+*.zip
+
+# Dotfiles
+.DS_Store
+.DS_Store?
+.env
+.eslintcache
+.Spotlight-V100
+
+# Folders
+.bundle/
+.cache/
+.Trash/
+.vscode/
+node_modules/
+vendor/
