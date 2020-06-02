@@ -17,6 +17,8 @@
   pl   = pull
   ps   = push
   st   = status
+  # add cleaning un tracked files and directories
+  # git clean -fd
   undo = reset --hard
   who  = shortlog -s --
 

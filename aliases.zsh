@@ -11,7 +11,14 @@ alias findall='sudo find / -iname'
 alias ll='ls -la'
 alias sshr='ssh -l root'
 alias hosts='sudo vim /etc/hosts'
-
-# Misc
 alias serve='python -m SimpleHTTPServer'
-alias git_cc='git rm -r --cached .; git add .; git status'
+
+# Git
+# Clear git cache
+alias git-cc='git rm -r --cached .; git add .; git status'
+# Remake of a git tag
+# git push --delete origin 0.0.8; git tag -d 0.0.8; git tag 0.0.8; git push --tags
+
+# ZSH maintenance
+alias zedit="vim $HOME/.zshrc"
+alias zreload="source $HOME/.zshrc"

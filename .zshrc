@@ -61,6 +61,7 @@ export EDITOR='vim'
 # export ARCHFLAGS="-arch x86_64"
 
 # Paths
+export PATH="$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin" # local beans paths
 export PATH="$PATH:$HOME/.rvm/bin" # RVM
 export PATH="$PATH:node_modules/.bin" # Node
 export PATH="$PATH:vendor/bin" # Composer or Rails
